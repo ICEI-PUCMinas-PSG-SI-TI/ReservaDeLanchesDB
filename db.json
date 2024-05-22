@@ -1,105 +1,124 @@
 {
   "clientes": [
     {
+      "id": 1,
       "nome": "Ana Souza",
       "email": "ana.souza@example.com",
       "telefone": "11999990001"
     },
     {
+      "id": 2,
       "nome": "Bruno Lima",
       "email": "bruno.lima@example.com",
       "telefone": "11999990002"
     },
     {
+      "id": 3,
       "nome": "Carla Pereira",
       "email": "carla.pereira@example.com",
       "telefone": "11999990003"
     },
     {
+      "id": 4,
       "nome": "Daniel Silva",
       "email": "daniel.silva@example.com",
       "telefone": "11999990004"
     },
     {
+      "id": 5,
       "nome": "Eduarda Costa",
       "email": "eduarda.costa@example.com",
       "telefone": "11999990005"
     },
     {
+      "id": 6,
       "nome": "Fernando Alves",
       "email": "fernando.alves@example.com",
       "telefone": "11999990006"
     },
     {
+      "id": 7,
       "nome": "Gabriela Martins",
       "email": "gabriela.martins@example.com",
       "telefone": "11999990007"
     },
     {
+      "id": 8,
       "nome": "Henrique Rodrigues",
       "email": "henrique.rodrigues@example.com",
       "telefone": "11999990008"
     },
     {
+      "id": 9,
       "nome": "Isabela Fernandes",
       "email": "isabela.fernandes@example.com",
       "telefone": "11999990009"
     },
     {
+      "id": 10,
       "nome": "João Santos",
       "email": "joao.santos@example.com",
       "telefone": "11999990010"
     },
     {
+      "id": 11,
       "nome": "Karla Gonçalves",
       "email": "karla.goncalves@example.com",
       "telefone": "11999990011"
     },
     {
+      "id": 12,
       "nome": "Leonardo Barros",
       "email": "leonardo.barros@example.com",
       "telefone": "11999990012"
     },
     {
+      "id": 13,
       "nome": "Mariana Ribeiro",
       "email": "mariana.ribeiro@example.com",
       "telefone": "11999990013"
     },
     {
+      "id": 14,
       "nome": "Nicolas Oliveira",
       "email": "nicolas.oliveira@example.com",
       "telefone": "11999990014"
     },
     {
+      "id": 15,
       "nome": "Olivia Castro",
       "email": "olivia.castro@example.com",
       "telefone": "11999990015"
     },
     {
+      "id": 16,
       "nome": "Pedro Cardoso",
       "email": "pedro.cardoso@example.com",
       "telefone": "11999990016"
     },
     {
+      "id": 17,
       "nome": "Quintina Dias",
       "email": "quintina.dias@example.com",
       "telefone": "11999990017"
     },
     {
+      "id": 18,
       "nome": "Renato Moraes",
       "email": "renato.moraes@example.com",
       "telefone": "11999990018"
     },
     {
+      "id": 19,
       "nome": "Sara Mendes",
       "email": "sara.mendes@example.com",
       "telefone": "11999990019"
     },
     {
+      "id": 20,
       "nome": "Thiago Teixeira",
       "email": "thiago.teixeira@example.com",
       "telefone": "11999990020"
     }
   ]
 }
-
