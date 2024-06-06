@@ -1,284 +1,87 @@
 {
-  "contatos": [
-    {
-      "nome": "Luciana Mara",
-      "telefone": "1-770-736-8031",
-      "email": "Sincere@april.biz",
-      "cidade": "Belo Horizonte",
-      "categoria": "amigos",
-      "website": "hildegard.org",
-      "id": 1
-    },
-    {
-      "id": 2,
-      "nome": "Ervin Howell",
-      "cidade": "Betim",
-      "categoria": "familia",
-      "email": "Shanna@melissa.tv",
-      "telefone": "010-692-6593",
-      "website": "anastasia.net"
-    },
-    {
-      "id": 3,
-      "nome": "Clementine Bauch",
-      "cidade": "Rio de Janeiro",
-      "categoria": "trabalho",
-      "email": "Nathan@yesenia.net",
-      "telefone": "1-463-123-4447",
-      "website": "ramiro.info"
-    },
-    {
-      "id": 4,
-      "nome": "Patricia Lebsack",
-      "cidade": "Betim",
-      "categoria": "trabalho",
-      "email": "Julianne.OConner@kory.org",
-      "telefone": "493-170-9623 x156",
-      "website": "kale.biz"
-    },
-    {
-      "id": 5,
-      "nome": "Chelsey Dietrich",
-      "cidade": "São Paulo",
-      "categoria": "familia",
-      "email": "Lucio_Hettinger@annie.ca",
-      "telefone": "(254)954-1289",
-      "website": "demarco.info"
-    },
-    {
-      "id": 6,
-      "nome": "Mrs. Dennis Schulist",
-      "cidade": "Rio de Janeiro",
-      "categoria": "trabalho",
-      "email": "Karley_Dach@jasper.info",
-      "telefone": "1-477-935-8478",
-      "website": "ola.org"
-    },
-    {
-      "id": 7,
-      "nome": "Kurtis Weissnat",
-      "cidade": "Belo Horizonte",
-      "categoria": "amigos",
-      "email": "Telly.Hoeger@billy.biz",
-      "telefone": "210.067.6132",
-      "website": "elvis.io"
-    },
-    {
-      "id": 8,
-      "nome": "Nicholas Runolfsdottir V",
-      "cidade": "Belo Horizonte",
-      "categoria": "familia",
-      "email": "Sherwood@rosamond.me",
-      "telefone": "586.493.6943",
-      "website": "jacynthe.com"
-    },
-    {
-      "nome": "João Caetano",
-      "telefone": "(775)976-6794",
-      "email": "joao@dana.io",
-      "cidade": "Betim",
-      "categoria": "amigos",
-      "website": "conrad.com",
-      "id": 9
-    },
-    {
-      "id": 10,
-      "nome": "Clementina DuBuque",
-      "cidade": "São Paulo",
-      "categoria": "amigos",
-      "email": "Rey.Padberg@karina.biz",
-      "telefone": "024-648-3804",
-      "website": "ambrose.net"
-    },
-    {
-      "nome": "Felipe Augusto",
-      "cidade": "São Pailo",
-      "categoria": "trabalho",
-      "email": "felipe@pucminas.br",
-      "telefone": "546578845",
-      "website": "felipe.net",
-      "id": 11
-    },
-    {
-      "nome": "Simone Alves Nogueira",
-      "telefone": "21-73737626526",
-      "email": "sidosamba@rio.com",
-      "cidade": "Rio de Janeiro",
-      "categoria": "amigos",
-      "website": "http://pagode.com.br",
-      "id": 12
-    },
-    {
-      "nome": "João Esteves",
-      "telefone": "876348725638",
-      "email": "joao@joaoland.com",
-      "cidade": "Belo Horizonte",
-      "categoria": "trabalho",
-      "website": "http://joao.com",
-      "id": 13
-    }
-  ],
-  "usuarios": [
-    {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
-    },
-    {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
-    },
-    {
-      "id": "171022ee-09b0-468a-962a-9c0772753cd0",
-      "login": "rommelcarneiro",
-      "senha": "12345",
-      "nome": "Rommel Carneiro",
-      "email": "rommel@abc.com"
-    }
-  ],
-  "locais": [
+  "pedidos": [
     {
       "id": 1,
-      "descricao": "PUC Minas - Coração Eucarístico",
-      "endereco": "Rua Dom José Gaspar, 500",
-      "favorito": true,
-      "cidade": "Belo Horizonte",
-      "latlong": [
-        -43.992911,
-        -19.923564
+      "usuario": 1,
+      "produtos": [
+        { "id": 1, "quantidade": 2, "nome": "hamburguer", "preco": 10.99 },
+        { "id": 3, "quantidade": 1, "nome": "esfirra", "preco": 15.99 }
       ],
-      "url": "https://www.pucminas.br",
-      "cor": "red"
+      "descricao": "Sem alface e com muito molho",
+      "valorTotal": 36.97,
+      "data": "05/06/24 18:25:31",
+      "status": "pendente"
     },
     {
       "id": 2,
-      "descricao": "PUC Minas - Praça da Liberdade",
-      "endereco": "Av. Brasil, 2023 - Funcionários",
-      "favorito": false,
-      "cidade": "Belo Horizonte",
-      "latlong": [
-        -43.9397233,
-        -19.9332786
+      "usuario": 2,
+      "produtos": [
+        { "id": 2, "quantidade": 1, "nome": "pizza", "preco": 20.50 },
+        { "id": 4, "quantidade": 3, "nome": "coxinha", "preco": 5.99 }
       ],
-      "url": "https://www.pucminas.br/unidade/praca-da-liberdade/Paginas/default.aspx",
-      "cor": "red"
+      "descricao": "Pedido para festa de aniversário",
+      "valorTotal": 38.47,
+      "data": "05/06/24 19:30:00",
+      "status": "entregue"
     },
     {
       "id": 3,
-      "descricao": "PUC Minas - Barreiro",
-      "endereco": "Avenida Afonso Vaz de Melo, 1.200 - Barreiro",
-      "favorito": true,
-      "cidade": "Belo Horizonte",
-      "latlong": [
-        -44.025818,
-        -19.976609
+      "usuario": 1,
+      "produtos": [
+        { "id": 5, "quantidade": 1, "nome": "refrigerante", "preco": 5.00 },
+        { "id": 6, "quantidade": 2, "nome": "batata frita", "preco": 8.00 }
       ],
-      "url": "https://www.pucminas.br/unidade/barreiro/Paginas/default.aspx",
-      "cor": "red"
+      "descricao": "Pedido para assistir ao jogo",
+      "valorTotal": 21.00,
+      "data": "05/06/24 20:15:00",
+      "status": "preparando"
     },
     {
       "id": 4,
-      "descricao": "PUC Minas - São Gabriel",
-      "endereco": "Rua Walter Ianni, 255 - São Gabriel",
-      "favorito": true,
-      "cidade": "Belo Horizonte",
-      "latlong": [
-        -43.917967,
-        -19.859226
+      "usuario": 2,
+      "produtos": [
+        { "id": 7, "quantidade": 1, "nome": "sorvete", "preco": 6.00 },
+        { "id": 8, "quantidade": 1, "nome": "milkshake", "preco": 7.50 }
       ],
-      "url": "https://www.pucminas.br/unidade/sao-gabriel/Paginas/default.aspx",
-      "cor": "red"
-    },
-    {
-      "id": 5,
-      "descricao": "PUC Minas - Contagem",
-      "endereco": "R. Rio Comprido, 4.580",
-      "favorito": false,
-      "cidade": "Contagem",
-      "latlong": [
-        -44.076069,
-        -19.939135
-      ],
-      "url": "https://www.pucminas.br/unidade/contagem/Paginas/default.aspx",
-      "cor": "blue"
-    },
-    {
-      "id": 6,
-      "descricao": "PUC Minas - Betim",
-      "endereco": "R. do Rosário, 1.081 Bairro Angola",
-      "favorito": true,
-      "cidade": "Betim",
-      "latlong": [
-        -44.1984331,
-        -19.9550716
-      ],
-      "url": "https://www.pucminas.br/unidade/betim/Paginas/default.aspx",
-      "cor": "blue"
-    },
-    {
-      "id": 7,
-      "descricao": "PUC Minas - Poços de Caldas",
-      "endereco": "Av. Pe. Cletus Francis Cox, 1.661",
-      "favorito": true,
-      "cidade": "Poços de Caldas",
-      "latlong": [
-        -46.5944649,
-        -21.78904
-      ],
-      "url": "https://www.pucpcaldas.br/",
-      "cor": "green"
+      "descricao": "Pedido para sobremesa",
+      "valorTotal": 13.50,
+      "data": "05/06/24 21:00:00",
+      "status": "entregue"
     }
   ],
-  "lancamentos": [
+  "clientes": [
     {
-      "mes": "jan-24",
-      "categoria": "Alimentação",
-      "valor": 500
+      "id": 1,
+      "nome": "Samuel Araujo",
+      "email": "mumuca1999@gmail.com",
+      "senha": "@W1",
+      "matricula": "1471283"
     },
     {
-      "mes": "jan-24",
-      "categoria": "Transporte",
-      "valor": 200
-    },
-    {
-      "mes": "jan-24",
-      "categoria": "Lazer",
-      "valor": 300
-    },
-    {
-      "mes": "fev-24",
-      "categoria": "Alimentação",
-      "valor": 450
-    },
-    {
-      "mes": "fev-24",
-      "categoria": "Transporte",
-      "valor": 180
-    },
-    {
-      "mes": "fev-24",
-      "categoria": "Lazer",
-      "valor": 350
-    },
-    {
-      "mes": "mar-24",
-      "categoria": "Alimentação",
-      "valor": 600
-    },
-    {
-      "mes": "mar-24",
-      "categoria": "Transporte",
-      "valor": 250
-    },
-    {
-      "mes": "mar-24",
-      "categoria": "Lazer",
-      "valor": 400
+      "id": 2,
+      "nome": "Samuel Oliveira",
+      "email": "oliveira.samuel.edu@gmail.com",
+      "senha": "@W1",
+      "matricula": "0000000"
     }
+  ],
+
+  "clientes": [
+    {
+    "id": 1,
+    "nome": "Samuel Araujo",
+    "email": "mumuca1999@gmail.com",
+    "senha": "@W1",
+    "matricula": "1471283"
+  },
+     {
+    "id": 2,
+    "nome": "Samuel Oliveira",
+    "email": "oliveira.samuel.edu@gmail.com",
+    "senha": "@W1",
+    "matricula": "0000000"
+  }
+    
   ]
+  
 }
